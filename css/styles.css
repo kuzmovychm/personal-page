@@ -148,3 +148,33 @@ hr {
   background-image: linear-gradient(to bottom, #6b6b6b, #7aa8fd);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .cloud-img {
+    width: 30%;
+  }
+
+  .top-cloud {
+    right: 10%;
+  }
+  
+  .bottom-cloud {
+    left: 10% ;
+  }
+
+  .mountain {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .top-container h1 {
+    font-size: 4rem;
+  }
+  
+  .top-container p {
+    font-size: 1.5rem;
+  }
+
+}
